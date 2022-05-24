@@ -1,11 +1,9 @@
-import './Contact.css'
-import { FaHammer } from 'react-icons/fa'
+import styles from './Contact.module.css'
+
+import Wip from '../../components/Wip/Wip'
 
 export default function Contact() {
   return (
-    <div className='container'>
-      <div>< FaHammer /></div>
-      <div>Work in progress</div>
-    </div>
+    <Wip page="CONTACT" />
   )
 }

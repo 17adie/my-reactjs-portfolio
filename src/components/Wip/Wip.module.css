@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  line-height: 2rem;
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.container h4 {
+  letter-spacing: 3px;
+  color: var(--color4);
+}
+
+.container span {
+  margin-top: 2rem;
+  font-size: 10rem;
+  color: var(--color1);
+}
+
+.container div {
+  font-size: 2rem;
+  letter-spacing: 3px;
+  margin-top: 1rem;
+  color: var(--color2);
+}
