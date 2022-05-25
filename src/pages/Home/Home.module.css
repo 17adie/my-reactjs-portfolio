@@ -18,26 +18,26 @@
 }
 
 .info > :nth-child(1) {
-  color: var(--color3);
+  color: var(--color1);
   font-size: 2rem;
 }
 
 .info > :nth-child(2) {
   font-size: 3rem;
   font-weight: bolder;
-  color: var(--color4);
+  color: var(--color2);
   margin-top: 10px;
 }
 
 .info > :nth-child(2):before {
   content: "I'M ";
-  color: var(--color3);
+  color: var(--color1);
   font-weight: 100;
 }
 
 .info > :nth-child(3) {
   font-size: 1.3rem;
-  color: var(--color3);
+  color: var(--color1);
   margin-top: -5px;
   margin-left: 3px;
 }
@@ -57,7 +57,7 @@
 
 .icons a:hover {
   cursor: pointer;
-  color: var(--color3);
+  color: var(--color1);
 }
 
 .r-side {
@@ -86,26 +86,26 @@
   }
 
   .info > :nth-child(1) {
-    color: var(--color3);
+    color: var(--color1);
     font-size: 1.4rem;
   }
   
   .info > :nth-child(2) {
     font-size: 1.8rem;
     font-weight: bolder;
-    color: var(--color4);
+    color: var(--color2);
     margin-top: 10px;
   }
   
   .info > :nth-child(2):before {
     content: "I'M ";
-    color: var(--color3);
+    color: var(--color1);
     font-weight: 100;
   }
   
   .info > :nth-child(3) {
     font-size: .9rem;
-    color: var(--color3);
+    color: var(--color1);
     margin-top: -1px;
     margin-left: 2px;
   }

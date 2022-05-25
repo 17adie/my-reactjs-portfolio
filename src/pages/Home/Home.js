@@ -4,7 +4,7 @@ import styles from './Home.module.css'
 import { FaGithub, FaFacebook, FaLinkedin, FaFilePdf  } from 'react-icons/fa';
 
 // svg
-import ProgrammingSvg from '../../img/programming.svg';
+import ProgrammingSvg from '../../img/programming-coffee.svg';
 
 export default function Home() {
 
