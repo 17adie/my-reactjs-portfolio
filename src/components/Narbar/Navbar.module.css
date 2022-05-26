@@ -4,8 +4,8 @@
   align-items: center;
   padding: 10px 5%;
   position: sticky;
-  top:0;
-  /* background-color: var(--color3); */
+  top: 0;
+  background-color: #fff;
 }
 
 .bars-button {
@@ -37,30 +37,29 @@
 
 /* for module but for normal css you can use a.active */
 /* https://stackoverflow.com/questions/68783262/react-css-modules-some-css-is-not-applied-for-active-class-set-by-navlink-c */
-.links a[class="active"] { 
+.links a[class="active"] {
   /* font-weight: bold; */
   color: var(--color1);
 }
 
 .links a::before {
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 2px;
-    border-radius: 4px;
-    background-color: var(--color1);
-    bottom: 0;
-    left: 0;
-    transform-origin: right;
-    transform: scaleX(0);
-    transition: transform .3s ease-in-out;
-  }
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  border-radius: 4px;
+  background-color: var(--color1);
+  bottom: 0;
+  left: 0;
+  transform-origin: right;
+  transform: scaleX(0);
+  transition: transform 0.3s ease-in-out;
+}
 
 .links a:hover::before {
   transform-origin: left;
   transform: scaleX(1);
 }
-
 
 /* @media only screen and (max-width: 981px) {
   .navbar {
@@ -82,7 +81,7 @@
     color: var(--color2);
   }
 
-  .links a[class='active'] {
+  .links a[class="active"] {
     font-size: 22px;
     color: var(--color1);
   }
@@ -114,7 +113,7 @@
     background-color: var(--color3);
     width: 100%;
     height: 2px;
-    transition: all .3s ease;
+    transition: all 0.3s ease;
   }
 
   .bars-button.hamburger span:nth-child(2) {
@@ -138,5 +137,4 @@
   .links a::before {
     background-color: var(--color1);
   }
-
 }

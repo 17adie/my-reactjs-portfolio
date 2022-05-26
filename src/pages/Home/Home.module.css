@@ -78,7 +78,7 @@
   }
 }
 
-@media only screen and (max-width: 600px) { 
+@media only screen and (max-width: 600px) {
   .container {
     display: flex;
     flex-direction: column;
@@ -89,22 +89,22 @@
     color: var(--color1);
     font-size: 1.4rem;
   }
-  
+
   .info > :nth-child(2) {
     font-size: 1.8rem;
     font-weight: bolder;
     color: var(--color2);
     margin-top: 10px;
   }
-  
+
   .info > :nth-child(2):before {
     content: "I'M ";
     color: var(--color1);
     font-weight: 100;
   }
-  
+
   .info > :nth-child(3) {
-    font-size: .9rem;
+    font-size: 0.9rem;
     color: var(--color1);
     margin-top: -1px;
     margin-left: 2px;
@@ -117,5 +117,4 @@
   .r-side {
     margin-top: 4rem;
   }
-
 }
