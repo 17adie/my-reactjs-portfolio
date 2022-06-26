@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 5%;
+  padding: 10px 15%;
   position: sticky;
   top: 0;
   background-color: #fff;
@@ -17,12 +17,13 @@
   font-weight: bold;
   letter-spacing: 1px;
   font-size: 20px;
+  margin-right: 40px;
 }
 
 .links {
   display: flex;
   align-items: center;
-  gap: 35px;
+  gap: 20px;
 }
 
 .links a {
@@ -72,6 +73,11 @@
 } */
 
 @media only screen and (max-width: 600px) {
+
+  .navbar {
+    padding: 10px 3%;
+  }
+
   .links {
     display: none;
   }
