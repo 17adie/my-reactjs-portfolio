@@ -21,86 +21,40 @@
   flex: 1;
 }
 
-/* form {
-  max-width: 500px;
-  margin: 0 auto;
+.contact-me {
+  max-width: 500px; /* to center - align to form */
+  margin: 0 auto; /* to center - align to form */
 }
 
-input {
-  display: block;
-  box-sizing: border-box;
-  width: 100%;
-  border-radius: 4px;
-  border: 1px solid var(--color1);
-  padding: 10px 15px;
-  margin-bottom: 10px;
-  font-size: 12px;
+.r-side h2 {
+  color: var(--color2);
 }
 
-textarea {
-  display: block;
-  box-sizing: border-box;
-  width: 100%;
-  border-radius: 4px;
-  border: 1px solid var(--color1);
-  padding: 10px 15px;
-  margin-bottom: 20px;
-  font-size: 12px;
-  font-family: inherit;
+.contact-info {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 10px;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+  background: #f9fbfd;
+  padding: 10px;
+  border-radius: 5px;
 }
 
-label {
-  line-height: 1;
-  text-align: left;
-  display: block;
-  margin-bottom: 13px;
-  margin-top: 20px;
-  color: var(--color4);
-  font-size: 10px;
-  font-weight: 200;
+.contact-info > div {
+  display: flex;
+  color: var(--color2);
+  font-size: 1rem;
+  align-items: center; /* align text and icon*/
 }
 
-input[type="submit"] {
-  background: var(--color2);
-  color: #fff;
-  text-transform: uppercase;
-  border: none;
-  margin-top: 20px;
-  padding: 20px;
-  font-size: 16px;
-  font-weight: 100;
-  letter-spacing: 10px;
-}
-
-input[type="submit"]:hover {
-  background: var(--color1);
-  cursor: pointer;
-}
-
-.loader {
-  margin: auto;
-  border: 5px solid var(--color1);
-  border-radius: 50%;
-  border-top: 5px solid var(--color3);
-  width: 40px;
-  height: 40px;
-  animation: spinner 1s linear infinite;
-}
-
-@keyframes spinner {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
-label.sent {
-  text-align: center;
-  font-size: 12px; 
+.contact-info div span {
+  margin-left: 0.3rem;
   color: var(--color3);
-} */
+  font-size: 0.8rem;
+}
 
 @media only screen and (max-width: 1200px) {
   .l-side img {
@@ -127,5 +81,22 @@ label.sent {
   .r-side {
     flex: 1;
     width: 100%;
+  }
+
+  .r-side h2 {
+    margin-top: 1.5rem;
+  }
+
+  .contact-info {
+    margin-top: 1rem;
+  }
+
+  .contact-info > div {
+    font-size: 1.2rem;
+  }
+
+  .contact-info div span {
+    font-size: 0.7rem;
+    padding-bottom: 1px;
   }
 }
