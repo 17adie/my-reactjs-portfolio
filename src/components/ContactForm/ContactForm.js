@@ -20,7 +20,7 @@ export default function ContactForm() {
     setisSending(true)
     setisSent(false)
 
-    emailjs.send("service_icl1hlr", "template_m41raek", formData, "user_eNarrmAP5MHSpgC348mSW").then(
+    emailjs.send(process.env.REACT_APP_EMAILJS_SERVICE, process.env.REACT_APP_EMAILJS_TEMPLATE, formData, process.env.REACT_APP_EMAILJS_USER).then(
       (result) => {
         console.log(result.text)
         setisSending(false)
