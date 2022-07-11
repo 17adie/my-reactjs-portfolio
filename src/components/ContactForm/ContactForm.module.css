@@ -1,6 +1,10 @@
 form {
   max-width: 500px;
   margin: 0 auto;
+  background-color: #f9fbfd;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
 }
 
 input {
@@ -24,6 +28,7 @@ textarea {
   margin-bottom: 20px;
   font-size: 12px;
   font-family: inherit;
+  resize: none;
 }
 
 label {

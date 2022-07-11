@@ -28,6 +28,7 @@
 
 .r-side h2 {
   color: var(--color2);
+  margin-top: 3.5rem;
 }
 
 .contact-info {
@@ -84,7 +85,7 @@
   }
 
   .r-side h2 {
-    margin-top: 1.5rem;
+    margin-top: 2.5rem;
   }
 
   .contact-info {
