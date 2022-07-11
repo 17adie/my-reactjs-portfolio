@@ -1,0 +1,148 @@
+.container {
+  display: flex;
+  height: 30vh;
+  padding: 10px 15%;
+}
+
+.r-side {
+  margin-top: 7rem;
+  flex: 1;
+  animation: fadeIn 2s ease-in-out;
+}
+
+.l-side {
+  margin-top: 12rem;
+  flex: 1;
+  animation: fadeInLeft 0.35s ease-in-out;
+}
+
+.l-side img {
+  height: auto;
+  width: 25rem;
+}
+
+.r-side h2 {
+  color: var(--color2);
+}
+
+.r-side p {
+  background-color: #f9fbfd;
+  padding: 10px;
+  border-radius: 5px;
+  color: var(--color3);
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.r-side > h4 {
+  margin-top: 2rem;
+  color: var(--color2);
+  border-bottom: 1px solid #eee;
+}
+
+.r-side ul {
+  list-style-type: none;
+  margin-top: 10px;
+  background-color: #f9fbfd;
+  border-radius: 5px;
+  padding: 5px;
+  line-height: 20px;
+}
+
+.r-side ul li {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  font-size: 12px;
+}
+
+.r-side ul li .check {
+  color: var(--color1);
+}
+
+.r-side ul li div {
+  padding-left: 5px;
+  color: var(--color3);
+}
+
+.skills-icon {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 15px;
+  color: var(--color2);
+  font-size: 2rem;
+}
+
+.skills-icon > :hover {
+  color: var(--color1);
+}
+
+.skills-text {
+  margin-top: 10px;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+}
+
+.skills-text > span {
+  align-items: center;
+  font-weight: bold;
+  font-size: 10px;
+  display: inline-block;
+  height: 100%;
+  white-space: nowrap;
+  width: auto;
+  border-radius: 10px;
+  padding: 0px 10px;
+  line-height: 1rem;
+  color: #fff;
+  background-color: var(--color1);
+  margin: 1px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .l-side img {
+    height: auto;
+    width: 20rem;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0.2rem;
+    padding: 10px 3%;
+  }
+
+  .r-side {
+    margin-top: 1rem;
+    flex: 1;
+  }
+
+  .l-side {
+    margin-top: 1rem;
+    flex: 1;
+  }
+}
+
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-150px);
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
