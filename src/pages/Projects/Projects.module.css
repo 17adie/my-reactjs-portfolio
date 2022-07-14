@@ -1,0 +1,14 @@
+.container {
+  padding: 10px 15%;
+  margin-top: 5rem;
+}
+
+.container h2 {
+  padding-bottom: 5px;
+  color: var(--color2);
+}
+
+.line {
+  border-bottom: 5px solid var(--color1);
+  width: 4rem;
+}

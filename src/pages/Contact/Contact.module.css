@@ -41,7 +41,7 @@
   gap: 10px;
   margin-top: 1rem;
   margin-bottom: 1.5rem;
-  background: #f9fbfd;
+  background: var(--color5);
   padding: 10px;
   border-radius: 5px;
 }
