@@ -21,6 +21,11 @@
   width: 25rem;
 }
 
+.line {
+  border-bottom: 5px solid var(--color1);
+  width: 4rem;
+}
+
 .r-side h2 {
   color: var(--color2);
 }

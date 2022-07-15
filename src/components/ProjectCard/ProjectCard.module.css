@@ -11,7 +11,7 @@ ul {
   flex-wrap: wrap;
   justify-content: space-evenly;
   gap: 10px;
-  margin-top: 2rem;
+  margin-top: 0.6rem;
   background-color: var(--color5);
   padding: 10px;
   border-radius: 5px;
@@ -54,13 +54,41 @@ ul {
   border-radius: 5px;
   /* center overlay text */
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+.overlay h2 {
+  color: #fff;
+}
+
+.overlay span {
+  background-color: var(--color1);
+  border-radius: 5px;
+  padding: 2px 5px;
+  font-size: 12px;
 }
 
 /* hover */
 .image-gallery li:hover .overlay {
   transform: scale(1);
+}
+
+.icons {
+  display:flex;
+  gap: 10px;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.icons > a {
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.icons > a:hover {
+  color: var(--color1);
 }
 
 /* card design and animation end */

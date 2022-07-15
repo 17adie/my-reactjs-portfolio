@@ -15,6 +15,7 @@ export default function About() {
       </div>
       <div className={styles["r-side"]}>
         <h2>About me</h2>
+        <div className={styles.line}></div>
         <p>Hello! I am a Web Developer experienced in building Web Applications. I enjoy developing interactive web applications and I use my free time to learn and practice my skills.</p>
 
         <h4>Qualities</h4>

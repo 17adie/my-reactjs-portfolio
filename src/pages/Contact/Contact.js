@@ -22,6 +22,7 @@ export default function Contact() {
       <div className={styles["r-side"]}>
         <div className={styles["contact-me"]}>
           <h2>Contact me</h2>
+          <div className={styles.line}></div>
           <div className={styles["contact-info"]}>
             <div>
               <FaPhoneSquareAlt />

@@ -6,7 +6,7 @@ import ProjectCard from "../../components/ProjectCard/ProjectCard"
 export default function Projects() {
   return (
     <div className={styles.container}>
-      <h2>My Projects</h2>
+      <h2>My projects.</h2>
       <div className={styles.line}></div>
       <ProjectCard />
     </div>
