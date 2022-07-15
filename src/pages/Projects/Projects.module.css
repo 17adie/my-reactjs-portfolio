@@ -12,3 +12,12 @@
   border-bottom: 5px solid var(--color1);
   width: 4rem;
 }
+
+@media only screen and (max-width: 600px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2.5rem;
+    padding: 10px 3%;
+  }
+}
